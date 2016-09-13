@@ -1,9 +1,10 @@
-.red{
-	background-color: red;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-.green{
-	background-color: green;
+.red{
+	background-color: red;
 }
 
 .purple{
@@ -20,6 +21,152 @@
 
 /* Real Stuff */
 
+.first, .second{
+	clear: both;
+}
+
 figure img{
 	max-width: 100%;
+}
+
+header.green{
+	background-color: white;
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+div.top-header{
+	background-color: #e0f3fd;
+	border-bottom: solid #91cfff .2em;
+	height: 2em;
+}
+
+div.top-header p{
+	float: right;
+	margin: 0.3em 0.7em 0 0;
+	font-weight: bold;
+	color: blue;
+
+}
+
+div.top-header p a{
+	color: blue;
+
+}
+
+#top-search{
+	float: right;
+	padding-top: 0.2em;
+
+}
+
+#top-search, value{
+	color: gray;
+	font-size: small;
+
+}
+
+div.top-header ul{
+	list-style: none;
+	float: left;
+	padding-top: 0.3em;
+	margin-bottom: 0;
+}
+
+div.top-header ul li{
+	display: inline-block;
+	color: blue;
+	font-weight: bold;
+	margin-right: 2em;
+}
+
+div.top-header ul li:first-child{
+	margin-left: 2em;
+}
+
+div.top-header ul li a{
+	color: blue;
+}
+
+div.header-imgs{
+	float: left;
+	padding-left: 1.5em;
+	padding-right: 0.7em;
+}
+
+div.header-text{
+	float: left;
+}
+
+div.header-text h1, h2{
+	margin: 0;
+    padding: 0;
+}
+
+div.header-text h1{
+	font-size: 2.5em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+div.header-text h2{
+	font-size: 0.99em;
+	letter-spacing: 0.12em;
+    font-weight: 300;
+}
+
+img.right-logo{
+	float: right;
+	width: 10em;
+}
+
+.img-txt{
+	height: 4.4em;
+	clear: both;
+}
+
+nav.main-nav{
+	background-color: transparent;
+    border-color: transparent;
+    border-top:1px solid #e7e7e7;
+}
+
+.navbar-brand{
+	display: none;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 40em) {
+
+	div.top-header{
+		display: none !important;
+	}
+
+	div.img-txt{
+		display: none;
+	}
+
+	.navbar-brand{
+		font-size: 1em;
+		font-weight: bold;
+		display: block;
+		padding: 25px 35px;
+	}
+
+	.navbar-toggle {
+	    margin-top: 1em;
+	    margin-right: 2em;
+	    margin-bottom: 1em;
+    }
+
+    .navbar{
+	    margin-bottom: 0;
+    }
+
+
 }
